@@ -1,0 +1,80 @@
+{
+	"meta": {
+		"format_version": "4.0",
+		"creation_time": 1646646524,
+		"model_format": "free",
+		"box_uv": false
+	},
+	"name": "model",
+	"geometry_name": "",
+	"visible_box": [1, 1, 0],
+	"variable_placeholders": "",
+	"resolution": {
+		"width": 16,
+		"height": 16
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"rescale": false,
+			"locked": false,
+			"from": [0, 0, 0],
+			"to": [1, 1, 1],
+			"autouv": 1,
+			"color": 0,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 1, 1]
+				},
+				"east": {
+					"uv": [0, 0, 1, 1]
+				},
+				"south": {
+					"uv": [0, 0, 1, 1]
+				},
+				"west": {
+					"uv": [0, 0, 1, 1]
+				},
+				"up": {
+					"uv": [0, 0, 1, 1]
+				},
+				"down": {
+					"uv": [0, 0, 1, 1]
+				}
+			},
+			"uuid": "cba9c853-97a2-e4f7-dce0-312ef574f83f"
+		}
+	],
+	"outliner": [
+		{
+			"name": "bone",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"uuid": "3e10f0a1-0c24-7e67-0db9-e06860d78c87",
+			"export": true,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"children": ["cba9c853-97a2-e4f7-dce0-312ef574f83f"]
+		}
+	],
+	"textures": [],
+	"animations": [
+		{
+			"uuid": "b16620ec-6dc0-f196-df53-71b38c7c9b68",
+			"name": "COOL_TRACK",
+			"loop": "once",
+			"override": false,
+			"length": 0,
+			"snapping": 25,
+			"selected": true,
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "",
+			"animators": {}
+		}
+	]
+}

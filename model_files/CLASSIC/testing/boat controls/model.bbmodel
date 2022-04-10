@@ -1,0 +1,137 @@
+{
+	"meta": {
+		"format_version": "4.0",
+		"creation_time": 1639403172,
+		"model_format": "free",
+		"box_uv": false
+	},
+	"name": "model",
+	"geometry_name": "",
+	"visible_box": [1, 1, 0],
+	"variable_placeholders": "",
+	"resolution": {
+		"width": 64,
+		"height": 64
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"rescale": false,
+			"locked": false,
+			"from": [-16, 26, 0],
+			"to": [16, 29, 1],
+			"autouv": 0,
+			"color": 3,
+			"origin": [0, 26, 0],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 32, 2],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 0, 1, 7],
+					"texture": null
+				},
+				"south": {
+					"uv": [0, 0, 32, 7],
+					"texture": null
+				},
+				"west": {
+					"uv": [0, 0, 1, 7],
+					"texture": null
+				},
+				"up": {
+					"uv": [0, 0, 32, 1],
+					"texture": null
+				},
+				"down": {
+					"uv": [0, 0, 32, 1],
+					"texture": null
+				}
+			},
+			"uuid": "3c63c3de-7791-41df-25a9-06b2d5f04f64"
+		},
+		{
+			"name": "cube",
+			"rescale": false,
+			"locked": false,
+			"from": [-1.5, 26, -1],
+			"to": [1.5, 29, 0],
+			"autouv": 0,
+			"color": 1,
+			"origin": [0, 26, 0],
+			"faces": {
+				"north": {
+					"uv": [32, 0, 34, 2],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"south": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"west": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"up": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				}
+			},
+			"uuid": "c5123d7e-6ab0-a967-af81-417c099a733a"
+		}
+	],
+	"outliner": [
+		{
+			"name": "HUD",
+			"origin": [0, 26, 0],
+			"color": 0,
+			"uuid": "6e55c505-c84d-958a-5505-2dd33b62cbda",
+			"export": true,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"children": [
+				"3c63c3de-7791-41df-25a9-06b2d5f04f64",
+				{
+					"name": "Rotation",
+					"origin": [0, 26, 0],
+					"color": 0,
+					"uuid": "c463f7c0-83f6-26d3-6bcb-ca3324abd500",
+					"export": true,
+					"isOpen": true,
+					"locked": false,
+					"visibility": true,
+					"autouv": 0,
+					"children": ["c5123d7e-6ab0-a967-af81-417c099a733a"]
+				}
+			]
+		}
+	],
+	"textures": [
+		{
+			"path": "C:\\Users\\MIGUEL-PC\\AppData\\Roaming\\.minecraft\\figura\\model_files\\boat controls\\texture.png",
+			"name": "texture.png",
+			"folder": "block",
+			"namespace": "",
+			"id": "0",
+			"particle": false,
+			"render_mode": "normal",
+			"visible": true,
+			"mode": "bitmap",
+			"saved": true,
+			"uuid": "5523a011-9f32-2191-8bfb-cc0880905c91",
+			"relative_path": "../texture.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAO9JREFUeF7tkkERAkEQxFgTOEAAH15ouzeCVgJ8KQTgZa/qTCRVlzHQPemMOee6gPfYXkf69fseRI2x1kIBfG734+/n/8cAIKibMhHqARARyADRGEiVDECwi0IzQDQGUiUDEOyi0AwQjYFUyQAEuyg0A0RjIFUyAMEuCs0A0RhIlQxAsItCM0A0BlIlAxDsotAMEI2BVMkABLsoNANEYyBVMgDBLgrNANEYSJUMQLCLQjNANAZSJQMQ7KLQDBCNgVTJAAS7KDQDRGMgVTIAwS4KzQDRGEiVDECwi0IzQDQGUiUDEOyi0AwQjYFUOb0BO6IfDUEhPl/SAAAAAElFTkSuQmCC"
+		}
+	]
+}

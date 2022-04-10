@@ -1,0 +1,199 @@
+{
+	"meta": {
+		"format_version": "4.0",
+		"creation_time": 1639942198,
+		"model_format": "free",
+		"box_uv": false
+	},
+	"name": "model",
+	"geometry_name": "",
+	"visible_box": [1, 1, 0],
+	"variable_placeholders": "",
+	"resolution": {
+		"width": 16,
+		"height": 16
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"rescale": false,
+			"locked": false,
+			"from": [-2, -16, -2],
+			"to": [2, 0, 2],
+			"autouv": 0,
+			"color": 2,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [0.25, 0.25, 0.75, 0.75],
+					"texture": 0
+				},
+				"east": {
+					"uv": [1.25, 0.25, 1.75, 0.75],
+					"texture": 0
+				},
+				"south": {
+					"uv": [2.25, 0.25, 2.75, 0.75],
+					"texture": 0
+				},
+				"west": {
+					"uv": [3.25, 0.25, 3.75, 0.75],
+					"texture": 0
+				},
+				"up": {
+					"uv": [4.25, 0.25, 4.75, 0.75],
+					"texture": 0
+				},
+				"down": {
+					"uv": [5.25, 0.25, 5.75, 0.75],
+					"texture": 0
+				}
+			},
+			"uuid": "c75f9bae-d6d4-50ac-9e82-00db7a88a87b"
+		},
+		{
+			"name": "cube",
+			"rescale": false,
+			"locked": false,
+			"from": [-2, 0, -2],
+			"to": [2, 16, 2],
+			"autouv": 0,
+			"color": 2,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [6.25, 0.25, 6.75, 0.75],
+					"texture": 0
+				},
+				"east": {
+					"uv": [7.25, 0.25, 7.75, 0.75],
+					"texture": 0
+				},
+				"south": {
+					"uv": [8.25, 0.25, 8.75, 0.75],
+					"texture": 0
+				},
+				"west": {
+					"uv": [9.25, 0.25, 9.75, 0.75],
+					"texture": 0
+				},
+				"up": {
+					"uv": [10.25, 0.25, 10.75, 0.75],
+					"texture": 0
+				},
+				"down": {
+					"uv": [11.25, 0.25, 11.75, 0.75],
+					"texture": 0
+				}
+			},
+			"uuid": "eea4fbc0-cd2c-1183-fecb-87e84983761b"
+		},
+		{
+			"name": "cube",
+			"rescale": false,
+			"locked": false,
+			"from": [-1, -1, -8],
+			"to": [1, 1, 8],
+			"autouv": 0,
+			"color": 1,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [1, 1, 2, 2],
+					"texture": 0
+				},
+				"east": {
+					"uv": [1, 1, 2, 2],
+					"texture": 0
+				},
+				"south": {
+					"uv": [1, 1, 2, 2],
+					"texture": 0
+				},
+				"west": {
+					"uv": [1, 1, 2, 2],
+					"texture": 0
+				},
+				"up": {
+					"uv": [1, 1, 2, 2],
+					"texture": 0
+				},
+				"down": {
+					"uv": [1, 1, 2, 2],
+					"texture": 0
+				}
+			},
+			"uuid": "93231425-afe1-e874-c112-1c6fa2029948"
+		}
+	],
+	"outliner": [
+		{
+			"name": "NO_PARENT",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"uuid": "69fe79d1-ff13-048b-b0fd-3243732510bf",
+			"export": true,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"children": [
+				{
+					"name": "Base",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"uuid": "7ad3963f-cfb7-a0de-cb82-fcd96b1f253c",
+					"export": true,
+					"isOpen": true,
+					"locked": false,
+					"visibility": true,
+					"autouv": 0,
+					"children": [
+						{
+							"name": "FRA",
+							"origin": [0, 0, 0],
+							"color": 0,
+							"uuid": "12f7e7a8-1621-4908-825c-a53b035fe0db",
+							"export": true,
+							"isOpen": true,
+							"locked": false,
+							"visibility": true,
+							"autouv": 0,
+							"children": ["c75f9bae-d6d4-50ac-9e82-00db7a88a87b"]
+						},
+						"93231425-afe1-e874-c112-1c6fa2029948"
+					]
+				},
+				{
+					"name": "FRB",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"uuid": "73d0cdaa-338e-0aba-c994-fb403c342aff",
+					"export": true,
+					"isOpen": true,
+					"locked": false,
+					"visibility": true,
+					"autouv": 0,
+					"children": ["eea4fbc0-cd2c-1183-fecb-87e84983761b"]
+				}
+			]
+		}
+	],
+	"textures": [
+		{
+			"path": "C:\\Users\\MIGUEL-PC\\AppData\\Roaming\\.minecraft\\figura\\model_files\\testing\\inverse kinematics\\texture.png",
+			"name": "texture.png",
+			"folder": "block",
+			"namespace": "",
+			"id": "0",
+			"particle": false,
+			"render_mode": "normal",
+			"visible": true,
+			"mode": "bitmap",
+			"saved": true,
+			"uuid": "b0ca3ad9-63f9-53fa-a923-d55a997c43cb",
+			"relative_path": "../texture.png",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAEVJREFUOE9jfGVk858BCxCbvRebMAODMTsjsgTj/xOq/+WXazM8mrgBRQK7bkxRsjShuIBYm3CpG3UBA8NoGIyGASh/AADpjgoRx861bgAAAABJRU5ErkJggg=="
+		}
+	]
+}

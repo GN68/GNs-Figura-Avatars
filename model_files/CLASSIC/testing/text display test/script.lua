@@ -1,0 +1,2 @@
+index = "`~1!2@3#4$5%6^7&8*9(0)-_=+qQwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:'zZxXcCvVbBnNmM,<.>/? "
+length = {3,7,6,2,6,7,6,6,6,6,6,6,6,6,6,6,6,4,6,4,6,4,4,6,6,6,6,6,6,6,6,6,6,6,4,6,6,6,6,6,2,5,6,6,6,5,6,6,6,6,6,6}--stopped at f
