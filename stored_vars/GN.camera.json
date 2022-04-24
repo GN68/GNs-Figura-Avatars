@@ -1,5 +1,178 @@
 {
-  "points": {
+  "workspace": {
+    "type": "TABLE",
+    "entries": {
+      "keyframes": {
+        "type": "TABLE",
+        "entries": {
+          "1": {
+            "type": "TABLE",
+            "entries": {
+              "ctrl": {
+                "type": "TABLE",
+                "entries": {
+                  "1": 0.0,
+                  "2": 0.0,
+                  "3": 2.0
+                }
+              },
+              "type": "smooth",
+              "time": 0.0,
+              "rot": {
+                "type": "TABLE",
+                "entries": {
+                  "1": 0.0,
+                  "2": -90.0,
+                  "3": 0.0
+                }
+              },
+              "pos": {
+                "type": "TABLE",
+                "entries": {
+                  "1": -7.5,
+                  "2": 4.0,
+                  "3": 45.0
+                }
+              }
+            }
+          },
+          "2": {
+            "type": "TABLE",
+            "entries": {
+              "ctrl": {
+                "type": "TABLE",
+                "entries": {
+                  "1": -4.0,
+                  "2": 0.0,
+                  "3": 0.0
+                }
+              },
+              "type": "smooth",
+              "time": 2.0,
+              "rot": {
+                "type": "TABLE",
+                "entries": {
+                  "1": 0.0,
+                  "2": 0.0,
+                  "3": 0.0
+                }
+              },
+              "pos": {
+                "type": "TABLE",
+                "entries": {
+                  "1": -4.0,
+                  "2": 3.0,
+                  "3": 43.0
+                }
+              }
+            }
+          },
+          "3": {
+            "type": "TABLE",
+            "entries": {
+              "ctrl": {
+                "type": "TABLE",
+                "entries": {
+                  "1": 0.0,
+                  "2": 0.0,
+                  "3": -2.0
+                }
+              },
+              "type": "smooth",
+              "time": 4.0,
+              "rot": {
+                "type": "TABLE",
+                "entries": {
+                  "1": 0.0,
+                  "2": 90.0,
+                  "3": 0.0
+                }
+              },
+              "pos": {
+                "type": "TABLE",
+                "entries": {
+                  "1": 0.0,
+                  "2": 7.0,
+                  "3": 45.0
+                }
+              }
+            }
+          },
+          "4": {
+            "type": "TABLE",
+            "entries": {
+              "ctrl": {
+                "type": "TABLE",
+                "entries": {
+                  "1": 4.0,
+                  "2": 0.0,
+                  "3": 0.0
+                }
+              },
+              "type": "smooth",
+              "time": 6.0,
+              "rot": {
+                "type": "TABLE",
+                "entries": {
+                  "1": 0.0,
+                  "2": 180.0,
+                  "3": 0.0
+                }
+              },
+              "pos": {
+                "type": "TABLE",
+                "entries": {
+                  "1": -4.0,
+                  "2": 2.0,
+                  "3": 48.0
+                }
+              }
+            }
+          },
+          "5": {
+            "type": "TABLE",
+            "entries": {
+              "ctrl": {
+                "type": "TABLE",
+                "entries": {
+                  "1": 0.0,
+                  "2": 0.0,
+                  "3": 2.0
+                }
+              },
+              "type": "smooth",
+              "time": 8.0,
+              "rot": {
+                "type": "TABLE",
+                "entries": {
+                  "1": 0.0,
+                  "2": 270.0,
+                  "3": 0.0
+                }
+              },
+              "pos": {
+                "type": "TABLE",
+                "entries": {
+                  "1": -7.5,
+                  "2": 4.0,
+                  "3": 45.0
+                }
+              }
+            }
+          }
+        }
+      },
+      "state": {
+        "type": "TABLE",
+        "entries": {
+          "1": 8.0,
+          "2": 0.0,
+          "3": 1.0
+        }
+      }
+    }
+  },
+  "preset_first": {
     "type": "TABLE",
     "entries": {
       "1": {
@@ -9,16 +182,16 @@
             "type": "VECTOR",
             "x": 0.0,
             "y": 0.0,
-            "z": 1.0,
+            "z": 2.0,
             "w": 0.0,
             "t": 0.0,
             "h": 0.0
           },
-          "type": 1.0,
+          "type": "smooth",
           "time": 0.0,
           "rot": {
             "type": "VECTOR",
-            "x": 20.0,
+            "x": 0.0,
             "y": -90.0,
             "z": 0.0,
             "w": 0.0,
@@ -41,18 +214,18 @@
         "entries": {
           "ctrl": {
             "type": "VECTOR",
-            "x": -2.0,
+            "x": -4.0,
             "y": 0.0,
             "z": 0.0,
             "w": 0.0,
             "t": 0.0,
             "h": 0.0
           },
-          "type": 1.0,
-          "time": 0.5,
+          "type": "smooth",
+          "time": 2.0,
           "rot": {
             "type": "VECTOR",
-            "x": 9.0,
+            "x": 0.0,
             "y": 0.0,
             "z": 0.0,
             "w": 0.0,
@@ -77,16 +250,16 @@
             "type": "VECTOR",
             "x": 0.0,
             "y": 0.0,
-            "z": -1.0,
+            "z": -2.0,
             "w": 0.0,
             "t": 0.0,
             "h": 0.0
           },
-          "type": 1.0,
-          "time": 2.0,
+          "type": "smooth",
+          "time": 4.0,
           "rot": {
             "type": "VECTOR",
-            "x": 50.0,
+            "x": 0.0,
             "y": 90.0,
             "z": 0.0,
             "w": 0.0,
@@ -109,18 +282,18 @@
         "entries": {
           "ctrl": {
             "type": "VECTOR",
-            "x": 2.0,
+            "x": 4.0,
             "y": 0.0,
             "z": 0.0,
             "w": 0.0,
             "t": 0.0,
             "h": 0.0
           },
-          "type": 1.0,
-          "time": 4.0,
+          "type": "smooth",
+          "time": 6.0,
           "rot": {
             "type": "VECTOR",
-            "x": -42.0,
+            "x": 0.0,
             "y": 180.0,
             "z": 0.0,
             "w": 0.0,
@@ -131,7 +304,7 @@
             "type": "VECTOR",
             "x": -4.0,
             "y": 2.0,
-            "z": 47.0,
+            "z": 48.0,
             "w": 0.0,
             "t": 0.0,
             "h": 0.0
@@ -145,16 +318,16 @@
             "type": "VECTOR",
             "x": 0.0,
             "y": 0.0,
-            "z": 1.0,
+            "z": 2.0,
             "w": 0.0,
             "t": 0.0,
             "h": 0.0
           },
-          "type": 1.0,
-          "time": 5.0,
+          "type": "smooth",
+          "time": 8.0,
           "rot": {
             "type": "VECTOR",
-            "x": 20.0,
+            "x": 0.0,
             "y": 270.0,
             "z": 0.0,
             "w": 0.0,
