@@ -1,4 +1,17 @@
 {
   "TKN": "e4b91448-3b58-4c1f-8339-d40f75ecacc4",
-  "version": 3.0
+  "version": 3.0,
+  "config": {
+    "type": "TABLE",
+    "entries": {
+      "wearing": {
+        "type": "TABLE",
+        "entries": {
+          "pants": "1.0",
+          "shirt": 6.0,
+          "head": "1.0"
+        }
+      }
+    }
+  }
 }

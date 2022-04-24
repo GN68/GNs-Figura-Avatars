@@ -150,7 +150,8 @@ rewards = {
 collected = nil
 
 ping.setSelected = function (selected)
-    collected = rewards[selected]
+    
+    log(selected)
 end
 
 function scramble()
@@ -158,9 +159,7 @@ function scramble()
     ping.setSelected(selected)
     --collected = rewards[math.floor(math.lerp(math.random(),1,rewardsCount-1))]
 
-    for key, value in pairs(rewards) do
-        value.part.setEnabled(key == rawSelected)
-    end
+    
 end
 
 function toggleSuit(toggle)
@@ -174,7 +173,11 @@ function toggleSuit(toggle)
 end
 
 function player_init()
-    scramble()
+    selected = 6
+    collected = rewards[selected]
+    for key, value in pairs(rewards) do
+        value.part.setEnabled(key == selected)
+    end
     updt()
     model.SKULL.reward.setEnabled(opened)
     if opened then
